@@ -1,0 +1,112 @@
+table{
+    color: white;
+    background-color: blue;
+}
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: #fafafa;
+}
+
+#stories{
+    height: 90px;
+    width: 70vw;
+    margin-top: -5px;
+    margin: 0 auto 0 auto;
+    border: 1px solid #b5b5b5;
+    border-radius: 2px;
+    padding-left: 30px; 
+}
+
+.user{
+    width: 18%;
+    display: inline-block;
+}
+
+.userstory {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    font-family:'Lucida Sans Unicode';
+    font-weight: 100;
+    font-size: smaller;
+    color: black;
+}
+
+.post-header{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b5b5b5;
+}
+
+nav{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px #e5e5e5;
+}
+
+#logo{
+    height: 40px;
+    position: relative;
+}
+
+#searchbar{
+    height: 25px;
+    position: relative;
+    width: 30vw;
+    left: 35vw;
+    right: -35vw;
+    color: #fafafa;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+}
+
+#actions{
+    height: 40px;
+    position: absolute;
+    right: 0px;
+}
+
+.user img{
+    padding-top: 5px;
+    border-width: 50%;
+    border-radius: 100px;
+    border: 4px double #b5b5b5;
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.post{
+    border: 1px solid #b5b5b5;
+    border-radius: 2px;
+    height: 60vh;
+    width: 300px; /*I changed the size to fit my image that I put in place of the broken image*/
+    margin-left: 119px;
+    margin-right: 119px;
+    padding: 10px;
+}
+
+.post-header{
+    color: white;
+    height: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b5b5b5;
+    color: black;
+}
+
+.post-image{
+    height: 300px;
+    width: 300px;
+}
